@@ -1,6 +1,44 @@
-body{
-    margin: 50px;
-}
+
 h2{
     font-style: italic;
+}
+html{
+    font-size: 100%;
+    font-weight: bolder;
+    margin: 50px;
+}
+body{
+    margin: 5px;;
+    padding: 0;
+    background: rgb(209, 195, 195);
+    font-family: sans-serif;
+    text-align: center;
+}
+.introContainer{
+    min-height: 300px;
+    background-color: transparent;
+     /* You must set a specified height */
+        /* background-position: top bottom;*/
+        background-position: fixed;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        text-align: center;
+        color: white;
+    
+}
+.pagContainer{
+    min-height: 500px;
+    background-color: transparent;
+     /* You must set a specified height */
+        /* background-position: top bottom;*/
+        background-position: fixed;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        text-align: center;
+        color: white;
+    
 }
