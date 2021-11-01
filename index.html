@@ -9,7 +9,7 @@
         <title>Eve's Pizza Hub</title>
     </head>
     <body>
-    <div class="introContainer" style="background-image:url(images/pizza1.jfif);" style="width:50%">
+    <div class="introContainer" style="background-image:url(images/pizza1.jfif);" style="min-height : 50px ;">
     <div class="row">
         <div class="col-md-12 text-center">
         <h1>EVE'S PIZZA HUB</h1>
@@ -27,7 +27,7 @@
                     <li>Chicken-tikka</li>
                     <li>Chicken-periperi</li>
                     <li>Chicken $ beef peperoni</li>
-                    <li>Beef berbeque</li>
+                    <li>Beef barbeque</li>
                     <li>Vegetarian-tikka</li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@
     </div>
     <div class="pagContainer" style="background-image: url(images/pizza4.jfif);">
         <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-center text-white">
                 <h2>JI nice na Pizza</h2>
             </div>
             <div class="col-md-6 text-center">
@@ -52,13 +52,74 @@
         </div>
     </div>
     <br>
+    <div class="col-md-12 text center">
     <h2>ORDER WITH US</h2>
+    </div>
     <div class="container">
         <div class="row">
-                
+            <div class="menu col-md-12">
+                <div class="sizeprice">
+                    <h1 class="text-center" id="menu">Menu.</h1>
+                    <div class=" row text-center">
+                        <figure class="col-sm-4">
+                            <img src="images/small.jfif" alt="small-size" class="wiggle">
+                            <figcaption class="text-purple">Small<br>Ksh. 500</figcaption>
+                        </figure>
+                        <figure class="col-sm-4">
+                            <img src="images/medium.jfif" alt="medium-size" class="wiggle">
+                            <figcaption class="text-purple">Medium<br>Ksh. 800</figcaption>
+                        </figure>
+                        <figure class="col-sm-4">
+                            <img src="images/large.jfif" alt="large-size" class="wiggle">
+                            <figcaption class="text-purple">Large<br>Ksh. 1000</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                </div>    
             </div>
         </div>
     </div>
+    
+<div class="orders" id="order">
+    <h2 class="text-center" id="order-pizza">Order Here</h2>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6 order text-center">
+            <form class="col-sm-6 offset-sm-3 text-center">
+                <label>Chagua Flavour:</label>
+                <select class="custom-select custom-select-md mb-3 flavour" required>
+                    <option value="veggetarian">Vegetarian-tikka</option>
+                    <option value="chicktikka">Chicken Tikka</option>
+                    <option value="peri">Periperi Chicken</option>
+                    <option value="bbq">Beef barbeque</option>
+                    <option value="hawaiian">Hawaiian</option>
+                    <option value="chickenbeef">Chicken and beef peperoni</option>
+                </select>
+                <label>Chagua size yako!:</label>
+                <select class="custom-select custom-select-md mb-3" id="size" required>
+                    <option value="Small">Regular</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+                <label for="crust">Chagua Crust:</label>
+                <select class="custom-select custom-select-md mb-3" id="crust" required>
+                    <option value="thin">Thin  @ Ksh. 100</option>
+                    <option value="crunchy">Crunchy  @ Ksh. 150</option>
+                    <option value="soft">Soft  @ Ksh. 150</option>
+                    <option value="basic">Basic  @ Ksh. 150</option>
+                </select>
+                <label>Chagua Toppings</label>
+                <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                    <option value="tomato">Tomato @ sh. 50</option>
+                    <option value="cheese">Cheese @ sh. 150</option>
+                    <option value="mushroom">Mushroom @ sh. 50</option>
+                    <option value="greenpepper">Green Pepper @ sh. 50</option>
+                    <option value="pineapple">Pineapple @ sh. 100</option>
+                    <option value="beef">Beef Peperoni @ sh. 170</option>
+                </select>
+                <label for="number">How many pizzas do you want?</label>
+                <input type="number" class="form-control" id="number" placeholder="Total number" min="1" required>
+            </form>
 
     </body>
 </html>
