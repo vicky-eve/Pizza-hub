@@ -80,7 +80,7 @@
         </div>
     </div>
     
-<div class="orders" id="order">
+<div class="orderContainer" id="order">
     <h2 class="text-center" id="order-pizza">Order Here</h2>
     <div class="row">
         <div class="col-sm-2"></div>
@@ -120,6 +120,17 @@
                 <label for="number">How many pizzas do you want?</label>
                 <input type="number" class="form-control" id="number" placeholder="Total number" min="1" required>
             </form>
+            <a href="#summary">
+                <button type="submit" class="btn btn-success checkout" id="checkout">
+                    Checkout
+                </button>
+            </a>
+            
+<div class="ordSummary" id="summary">
+    <h1 class="text-center" id="summary">Summary</h1>
+    <h2 class="text-center summary">This is your order:</h2>
+    <ol id="list" class="text-center sum">
+    </ol>
 
     </body>
 </html>
