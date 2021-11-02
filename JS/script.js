@@ -9,3 +9,24 @@ $(function () {
         let topping = $("#toppings option:selected").val();
         let number = $("#number").val();
         console.log(size);})
+
+        let order = (flavour, size, crust, topping, number, total) => {
+            return {flavour, size, crust, topping, number, total};
+        };
+// getting price of flavour chosen
+        let price, totalPrice;
+        switch (flavour) {
+            case flavour = "veggetarian":
+                switch (size) {
+                    case size = "Small":
+                        price = 500;
+                        if (crust === "thin") {
+                            totalPrice = (price * number) + 150;
+                        } else if (crust === "crunchy") {
+                            totalPrice = (price * number) + 150;
+                        } else if (crust === "soft") {
+                            totalPrice = (price * number) + 150;
+                        } else {
+                            totalPrice = (price * number) + 150;
+                        }
+                        break;
