@@ -54,3 +54,203 @@ $(function () {
                                 totalPrice = (price * number) + 150;
                             }
                             break;
+                        }
+                        break;
+                    case flavour = "chickentikka":
+                        switch (size) {
+                            case size = "Small":
+                                price =500 ;
+                                if (crust === "thin") {
+                                    totalPrice = (price * number) + 150;
+                                } else if (crust === "crunchy") {
+                                    totalPrice = (price * number) + 150;
+                                } else if (crust === "soft") {
+                                    totalPrice = (price * number) + 150;
+                                } else {
+                                    totalPrice = (price * number) + 150;
+                                }
+                                break;
+                            case size = "Medium":
+                                price = 800;
+                                if (crust === "thin") {
+                                    totalPrice = (price * number) + 150;
+                                } else if (crust === "crunchy") {
+                                    totalPrice = (price * number) + 150;
+                                } else if (crust === "soft") {
+                                    totalPrice = (price * number) + 150;
+                                } else {
+                                    totalPrice = (price * number) + 150;
+                                }
+                                break;
+                            case size = "Large":
+                                price = 1200;
+                                if (crust === "thin") {
+                                    totalPrice = (price * number) + 150;
+                                } else if (crust === "crunchy") {
+                                    totalPrice = (price * number) + 150;
+                                } else if (crust === "soft") {
+                                    totalPrice = (price * number) + 150;
+                                } else {
+                                    totalPrice = (price * number) + 150;
+                                }
+                                break;
+                                }
+                                break;
+                                case flavour = "peri":
+                                    switch (size) {
+                                        case size = "Small":
+                                            price =500 ;
+                                            if (crust === "thin") {
+                                                totalPrice = (price * number) + 150;
+                                            } else if (crust === "crunchy") {
+                                                totalPrice = (price * number) + 150;
+                                            } else if (crust === "soft") {
+                                                totalPrice = (price * number) + 150;
+                                            } else {
+                                                totalPrice = (price * number) + 150;
+                                            }
+                                            break;
+                                        case size = "Medium":
+                                            price = 800;
+                                            if (crust === "thin") {
+                                                totalPrice = (price * number) + 150;
+                                            } else if (crust === "crunchy") {
+                                                totalPrice = (price * number) + 150;
+                                            } else if (crust === "soft") {
+                                                totalPrice = (price * number) + 150;
+                                            } else {
+                                                totalPrice = (price * number) + 150;
+                                            }
+                                            break;
+                                        case size = "Large":
+                                            price = 1200;
+                                            if (crust === "thin") {
+                                                totalPrice = (price * number) + 150;
+                                            } else if (crust === "crunchy") {
+                                                totalPrice = (price * number) + 150;
+                                            } else if (crust === "soft") {
+                                                totalPrice = (price * number) + 150;
+                                            } else {
+                                                totalPrice = (price * number) + 150;
+                                            }
+                                            break;
+                                        }
+                                        break;
+                                        case flavour = "bbq":
+                                            switch (size) {
+                                                case size = "Small":
+                                                    price =500 ;
+                                                    if (crust === "thin") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else if (crust === "crunchy") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else if (crust === "soft") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else {
+                                                        totalPrice = (price * number) + 150;
+                                                    }
+                                                    break;
+                                                case size = "Medium":
+                                                    price = 800;
+                                                    if (crust === "thin") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else if (crust === "crunchy") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else if (crust === "soft") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else {
+                                                        totalPrice = (price * number) + 150;
+                                                    }
+                                                    break;
+                                                case size = "Large":
+                                                    price = 1200;
+                                                    if (crust === "thin") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else if (crust === "crunchy") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else if (crust === "soft") {
+                                                        totalPrice = (price * number) + 150;
+                                                    } else {
+                                                        totalPrice = (price * number) + 150;
+                                                    }
+                                                    break;
+                                                }
+                                                break;
+                                                case flavour = "hawaiian":
+                                                    switch (size) {
+                                                        case size = "Small":
+                                                            price =500 ;
+                                                            if (crust === "thin") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else if (crust === "crunchy") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else if (crust === "soft") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else {
+                                                                totalPrice = (price * number) + 150;
+                                                            }
+                                                            break;
+                                                        case size = "Medium":
+                                                            price = 800;
+                                                            if (crust === "thin") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else if (crust === "crunchy") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else if (crust === "soft") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else {
+                                                                totalPrice = (price * number) + 150;
+                                                            }
+                                                            break;
+                                                        case size = "Large":
+                                                            price = 1200;
+                                                            if (crust === "thin") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else if (crust === "crunchy") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else if (crust === "soft") {
+                                                                totalPrice = (price * number) + 150;
+                                                            } else {
+                                                                totalPrice = (price * number) + 150;
+                                                            }
+                                                            break;
+                                                        }
+                                                        break;
+                                                        case flavour = "chickenbeef":
+                                                            switch (size) {
+                                                                case size = "Small":
+                                                                    price =500 ;
+                                                                    if (crust === "thin") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else if (crust === "crunchy") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else if (crust === "soft") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    }
+                                                                    break;
+                                                                case size = "Medium":
+                                                                    price = 800;
+                                                                    if (crust === "thin") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else if (crust === "crunchy") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else if (crust === "soft") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    }
+                                                                    break;
+                                                                case size = "Large":
+                                                                    price = 1200;
+                                                                    if (crust === "thin") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else if (crust === "crunchy") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else if (crust === "soft") {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    } else {
+                                                                        totalPrice = (price * number) + 150;
+                                                                    }
+                                                                    break;
