@@ -254,3 +254,29 @@ $(function () {
                                                                         totalPrice = (price * number) + 150;
                                                                     }
                                                                     break;
+                                                                }
+                                                                // toppings section
+                                                                break;
+                                                            }
+                                                            switch (topping) {
+                                                                case topping = "tomato":
+                                                                    totalPrice = totalPrice + 50;
+                                                                    break;
+                                                                case topping = "cheese":
+                                                                    totalPrice = totalPrice + 150;
+                                                                    break;
+                                                                case topping = "mushroom":
+                                                                    totalPrice = totalPrice + 50;
+                                                                    break;
+                                                                case topping = "greenpepper":
+                                                                    totalPrice = totalPrice + 50;
+                                                                    break;
+                                                                case topping = "pineapple":
+                                                                    totalPrice = totalPrice + 100;
+                                                                    break;
+                                                                case topping = "beef":
+                                                                    totalPrice = totalPrice + 170;
+                                                                    break;
+                                                                
+                                                    
+                                                            }
