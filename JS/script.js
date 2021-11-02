@@ -42,3 +42,15 @@ $(function () {
                             totalPrice = (price * number) + 150;
                         }
                         break;
+                        case size = "Large":
+                            price = 1000;
+                            if (crust === "thin") {
+                                totalPrice = (price * number) + 150;
+                            } else if (crust === "crunchy") {
+                                totalPrice = (price * number) + 150;
+                            } else if (crust === "soft") {
+                                totalPrice = (price * number) + 150;
+                            } else {
+                                totalPrice = (price * number) + 150;
+                            }
+                            break;
