@@ -21,7 +21,7 @@
     <div class="abtContainer">
         <div class="row">
             <div class="col-md-6">
-                <h3>Menu</h3>
+                <h3>Available flavours</h3>
                 <ul>
                     <li>Hawaiian</li>
                     <li>Chicken-tikka</li>
@@ -79,15 +79,15 @@
             </div>
         </div>
     </div>
-    
-<div class="orderContainer" id="order">
-    <h2 class="text-center" id="order-pizza">Order Here</h2>
+    <br>
+<div class="orderContainer" id="order" style="background-image:url(images/pizza1.jfif);"  >
+    <h2 class="text-center text-white" id="order-pizza">Order Here</h2>
     <div class="row">
         <div class="col-sm-2"></div>
-        <div class="col-sm-6 order text-center">
+        <div class="col-sm-6 order text-center text-white">
             <form class="col-sm-6 offset-sm-3 text-center">
                 <label>Chagua Flavour:</label>
-                <select class="custom-select custom-select-md mb-3 flavour" required>
+                <select class="custom-select custom-select-md mb-3 flavour " required>
                     <option value="veggetarian">Vegetarian-tikka</option>
                     <option value="chicktikka">Chicken Tikka</option>
                     <option value="peri">Periperi Chicken</option>
@@ -97,7 +97,7 @@
                 </select>
                 <label>Chagua size yako!:</label>
                 <select class="custom-select custom-select-md mb-3" id="size" required>
-                    <option value="Small">Regular</option>
+                    <option value="Small">Small</option>
                     <option value="Medium">Medium</option>
                     <option value="Large">Large</option>
                 </select>
@@ -125,8 +125,9 @@
                     Finish
                 </button>
             </a>
-            
-<div class="ordSummary" id="summary">
+   <br> 
+   <br>        
+<div class="ordSummary" id="summary" style="background-color: cadetblue;">
     <h1 class="text-center" id="summary">Summary</h1>
     <h2 class="text-center summary">This is your order:</h2>
     <ol id="list" class="text-center sum">
@@ -148,7 +149,8 @@
         <button class='nottodeliver'>Pick it yourself</button>
     </div>
     </div>
-    <div class="pizzaContacts">
+    <br>
+    <div class="pizzaContacts" style="background-color: cadetblue;">
         <div class="contacts">
             <h1 class="text-center contact text-maroon">Contacts:</h1>
             <div class="row">
@@ -156,20 +158,21 @@
                 <div class="col-sm-5 subs">
                     <h1 class="text-maroon text-center">To reach us through call:</h1>
                     <p class="text-center">0724657167</p>
-                    <form>
-                        <div class="email">
-                            <div class="form-group fill-all-form">
-                                <input type="email" class="form-control bg-transparent email" id="email" placeholder="Your Email"
-                                       required="">
-                                    </div>
-                                </div>
-                                <div class=" email-info text-center">
-                                    <button class="btn click-me" onclick="submit();">Submit</button>
-                                </div>
-                            </form>
-                        </div>
+                   
                         <div class="col-sm-5">
                             <h4 class="text-center get-pizza">Kindly give us your feedback...email us</h4>
+                            <form>
+                                <div class="email">
+                                    <div class="form-group fill-all-form text-center">
+                                        <input type="email" class="form-control bg-transparent email" id="email" placeholder="Your Email"
+                                               required="">
+                                            </div>
+                                        </div>
+                                        <div class=" email-info text-center">
+                                            <button class="btn click-me" onclick="submit();">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
                         </div>
                         <div class="col-sm-1"></div>
                     </div>
