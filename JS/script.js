@@ -1,18 +1,4 @@
-$(function () {
-    $('.summary').hide();
-    $('deliveryDets').hide();})
-    //choices made
-    $("#finish").click(function () {
-        let flavour = $(".flavour option:selected").val();
-        let size = $("#size option:selected").val();
-        let crust = $("#crust option:selected").val();
-        let topping = $("#toppings option:selected").val();
-        let number = $("#number").val();
-        console.log(size);})
 
-        let order = (flavour, size, crust, topping, number, total) => {
-            return {flavour, size, crust, topping, number, total};
-        };
 // getting price of flavour chosen
         let price, totalPrice;
         switch (flavour) {
@@ -299,17 +285,31 @@ $(function () {
             + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
     ;
 
-    //Deliver
-    $(".deliver").click(function () {
-        $('.summary').slideUp();
-        $('#list').slideUp();
-        $('.summary').text("Provide location details").slideDown();
-        $('.deliver').hide(1000);
-        $('.delivernot').hide(1000);
-        $('.cdata-overlay').slideDown();
-    });
-
-
+    
+    $(function () {
+        $('.ordSummary').hide();
+        $('.deliveryDets').hide();})
+        //choices made
+        $("#finish").click(function () {
+            let flavour = $(".flavour option:selected").val();
+            let size = $("#size option:selected").val();
+            let crust = $("#crust option:selected").val();
+            let topping = $("#toppings option:selected").val();
+            let number = $("#number").val();
+            console.log(size);})
+    
+            let order = (flavour, size, crust, topping, number, total) => {
+                return {flavour, size, crust, topping, number, total};
+            };
+//Deliver
+$(".deliver").click(function () {
+    $('#summary').slideUp();
+    $('#list').slideUp();
+    $('.summary').text("Provide location details").slideDown();
+    $('.deliver').hide(1000);
+    $('.nottodeliver').hide(1000);
+    $('.ordSummary').slideDown();
+});
     //By self pick up
     $(".delivernot").click(function () {
 
