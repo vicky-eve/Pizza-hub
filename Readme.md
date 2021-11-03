@@ -26,4 +26,4 @@ cd Pizza-HUB
 * Open index.html on your browser
 
 ##### Link to live site on GitHub page
-
+- https://vicky-eve.github.io/Pizza-hub/
